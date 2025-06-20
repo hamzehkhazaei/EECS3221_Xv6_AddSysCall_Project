@@ -124,3 +124,5 @@ Create a user program called `ps` that demonstrates your system call by listing 
 4. Test incrementally - get a simple version working before adding complexity
 
 Good luck! Remember that kernel programming requires careful attention to detail, as bugs can crash the entire system.
+
+**Instructor:** Hamzeh Khazaei
