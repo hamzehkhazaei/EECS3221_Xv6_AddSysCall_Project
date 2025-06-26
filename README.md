@@ -118,11 +118,11 @@ Create a user program called `ps` that demonstrates your system call by listing 
 
 ## Getting Started
 
-1. Make sure you can build and run the stock Xv6 system
+1. Make sure you can build and run the Xv6 OS
 2. Study existing system call implementations in `sysproc.c`
 3. Start by adding the system call interface before implementing functionality
 4. Test incrementally - get a simple version working before adding complexity
 
-Good luck! Remember that kernel programming requires careful attention to detail, as bugs can crash the entire system.
+Good luck! Remember that kernel programming requires meticulous attention to detail, as even minor bugs can crash the entire system.
 
 **Instructor:** Hamzeh Khazaei
