@@ -1,8 +1,8 @@
-# Project 1: System Call Implementation
+# Project 1: System Call Implementation for xv6
 
 ## Overview
 
-In this project, you will implement a new system call in the Xv6 operating system called `getprocs()` that returns information about currently running processes. This project will give you hands-on experience with the complete system call pathway, from user-space programs through the kernel interface to the actual kernel implementation.
+In this project, you will implement a new system call in the xv6 operating system called `getprocs()` that returns information about currently running processes. This project will give you hands-on experience with the complete system call pathway, from user-space programs through the kernel interface to the actual kernel implementation.
 
 ## Learning Objectives
 
@@ -102,7 +102,7 @@ Create a user program called `ps` that demonstrates your system call by listing 
 
 ## Deliverables
 
-1. Modified Xv6 source code with your system call implementation
+1. Modified xv6 source code with your system call implementation
 2. A `ps.c` user program that demonstrates the functionality
 3. A brief report (1-2 pages) explaining:
    - Your implementation approach
@@ -118,7 +118,7 @@ Create a user program called `ps` that demonstrates your system call by listing 
 
 ## Getting Started
 
-1. Make sure you can build and run the Xv6 OS
+1. Make sure you can build and run the xv6 OS
 2. Study existing system call implementations in `sysproc.c`
 3. Start by adding the system call interface before implementing functionality
 4. Test incrementally - get a simple version working before adding complexity
