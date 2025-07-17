@@ -94,17 +94,18 @@ Create a user program called `ps` that demonstrates your system call by listing 
 
 ## Testing Strategy
 
-1. **Basic Functionality**: Run your `ps` program and verify it shows expected processes
+1. **Basic Functionality**: Run your `ps` program and verify it shows the expected processes
 2. **Edge Cases**: Test with `max_procs = 0`, `max_procs = 1`, very large values
 3. **Error Handling**: Pass invalid pointers and verify proper error returns
-4. **Multiple Processes**: Start several processes and verify they all appear
+4. **Multiple Processes**: Start several processes and verify that they all appear
 5. **Process States**: Create sleeping processes and verify state reporting
 
 ## Deliverables
 You need to submit a zip file named `xv6-syscall.zip` including the following:
 1. Modified xv6 source code with your system call implementation and the `ps.c` test user program.
 2. **Demo Video**: A 3-minute video (e.g., Zoom with screen capture and Camera) explaining your code in action.
-3. A `readme.txt` file including:
+  1. **Important Note**: At the beginning of the demo, while the camera is on, introduce yourself with your student number, then start the demo by using the screen capture feature.      
+4. A `readme.txt` file including:
    - Your implementation approach
    - Any challenges encountered and how you solved them
    - Test cases you used to verify correctness
