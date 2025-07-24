@@ -116,8 +116,8 @@ You need to submit a zip file named `xv6-syscall.zip` including the following:
 ## 📤 Your zip file should have a structure like below:
 
 📦 xv6-syscall.zip  
-│   ├── 📂 xv6-public  
-│   └── 📝 Include ALL modifications and test programs  
+│   ├── 📂 xv6-riscv  
+│   └── 📝 Includes all modifications in kernel and test programs in the user directory  
 ├── 🎥 demo_video.mp4  
 │   ├── ⏱️ Duration: 3 minutes maximum  
 │   ├── 🖥️ Screen capture with camera  
@@ -144,6 +144,6 @@ You need to submit a zip file named `xv6-syscall.zip` including the following:
 3. Start by adding the system call interface before implementing functionality
 4. Test incrementally - get a simple version working before adding complexity
 
-Good luck! Remember that kernel programming requires meticulous attention to detail, as even minor bugs can crash the entire system.
+Good luck! Remember that kernel programming requires meticulous attention to detail, as even minor bugs can cause the entire system to crash.
 
 **Instructor:** Hamzeh Khazaei
