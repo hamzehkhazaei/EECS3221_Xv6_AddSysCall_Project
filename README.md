@@ -103,7 +103,7 @@ Create a user program called `ps` that demonstrates your system call by listing 
 ## Deliverables
 You need to submit a zip file named `xv6-syscall.zip` including the following:
 1. Modified xv6 source code with your system call implementation and the `ps.c` test user program.
-2. **Demo Video**: A 3-minute video (e.g., Zoom with screen capture and Camera) explaining your code in action.
+2. **Demo Video**: A 3-minute video (e.g., Zoom with screen sharing, recording, and Camera on) explaining your code in action.
    
     **Important Note**: At the beginning of the demo, while the camera is on, introduce yourself with your student number, then start the demo by using the screen capture feature.
    
@@ -132,9 +132,9 @@ You need to submit a zip file named `xv6-syscall.zip` including the following:
 
 ## Grading Criteria
 
-- **Correctness (40%)**: System call works as specified
-- **Code Quality (30%)**: Clean, well-commented code following kernel conventions
-- **Error Handling (20%)**: Proper validation and error reporting
+- **Correctness (70%)**: System call works as specified
+- **Code Quality (10%)**: Clean, well-commented code following kernel conventions
+- **Error Handling (10%)**: Proper validation and error reporting
 - **Testing (10%)**: Comprehensive testing and demonstration
 
 ## Getting Started
